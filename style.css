@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 60vh;
+    width: 30vw;
+    background-color: azure;
+    text-align: center;
+}
+
+.box{
+    height: 50vh;
+    width: 30vw;
+    background-color: gray;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.inner-box{
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 100px;
+    font-weight: 500;
+}
